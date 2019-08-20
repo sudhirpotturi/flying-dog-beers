@@ -6,6 +6,7 @@ import pandas as pd
 import plotly.graph_objs as go
 
 app=dash.Dash()
+server = app.server
 
 app.layout = html.Div([
     dcc.Dropdown(
