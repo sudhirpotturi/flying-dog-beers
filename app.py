@@ -1,8 +1,8 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-from iexfinance.stocks import get_historical_data
-from iexfinance.stocks import Stock
+# from iexfinance.stocks import get_historical_data
+# from iexfinance.stocks import Stock
 from dash.dependencies import Input,Output
 import datetime
 from  dateutil.relativedelta import relativedelta
