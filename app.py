@@ -6,7 +6,7 @@ import pandas as pd
 
 
 app = dash.Dash(__name__)
-server=app.server()
+server=app.server
 
 
 data=pd.read_csv(r"SP500.csv");
